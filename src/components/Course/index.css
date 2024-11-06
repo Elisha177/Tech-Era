@@ -1,0 +1,35 @@
+/* Styles for each list item container */
+.listItem {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  text-decoration: none; /* Remove underline from Link */
+  transition: transform 0.2s ease;
+  width: 100%;
+  max-width: 400px; /* Limit the width for consistency */
+}
+
+.listItem:hover {
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+/* Styling for the image */
+.listItem img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 50%; /* Optional: circle image */
+}
+
+/* Styling for the course name text */
+.linkItems {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+  flex-grow: 1; /* Ensures text takes up available space */
+  margin: 0;
+}

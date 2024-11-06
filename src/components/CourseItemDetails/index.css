@@ -1,0 +1,13 @@
+.itemDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 80%;
+  gap: 20px; /* Adds space between the image and details */
+  flex-wrap: wrap; /* Allows content to wrap neatly on smaller screens */
+}
+.itemDetails img {
+  width: 300px;
+  margin-right: 20px;
+}

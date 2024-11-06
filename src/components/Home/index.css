@@ -1,0 +1,15 @@
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unordered-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between each course */
+  padding: 20px;
+  list-style-type: none;
+  margin: 0;
+}
